@@ -42,6 +42,11 @@ margin: 0 auto;
 .text--purple {
 color: #6030b1;
 }
+
+section:nth-child(even) {
+    background-color: #f8f8f8
+}
+
 /* Navigation Bar */
 
 nav {
@@ -95,6 +100,8 @@ nav {
 .about-me__info {
 display: flex;
 flex-direction: column;
+gap: 10%;
+
 }
 
 .about-me__info--container {
